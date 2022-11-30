@@ -1,0 +1,10 @@
+#container {
+  display: flex;
+  margin: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  align-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+}/*# sourceMappingURL=cards-container.component.css.map */

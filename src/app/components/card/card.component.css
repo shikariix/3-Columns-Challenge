@@ -1,0 +1,14 @@
+.card {
+  width: 200px;
+  padding: 40px;
+}
+.card h2 {
+  color: var(--verylightgray);
+  font-family: var(--fontbigshoulders);
+  text-transform: uppercase;
+}
+.card p {
+  color: var(--transparentwhite);
+  font-size: 0.9rem;
+  font-family: var(--fontlexend) !important;
+}/*# sourceMappingURL=card.component.css.map */
