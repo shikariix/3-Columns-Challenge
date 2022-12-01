@@ -1,1 +1,4 @@
-/*# sourceMappingURL=app.component.css.map */
+:host {
+  display: flex;
+  height: 100%;
+}/*# sourceMappingURL=app.component.css.map */

@@ -4,10 +4,65 @@
   --verydarkcyan: hsl(179, 100%, 13%);
   --transparentwhite: hsla(0, 0%, 100%, 0.75);
   --verylightgray: hsl(0, 0%, 95%);
-  --fontlexend: "Lexend", sans-serif;
-  --fontbigshoulders:"Big Shoulders", sans-serif;
+  --fontlexend: "Lexend Deca", sans-serif;
+  --fontbigshoulders:"Big Shoulders Display", sans-serif;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: var(--fontlexend);
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--verylightgray);
+}
+
+h2 {
+  color: var(--verylightgray);
+  font-family: var(--fontbigshoulders);
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 2.2rem;
+}
+
+p {
+  color: var(--transparentwhite);
+  font-size: 0.9rem;
+  font-family: var(--fontlexend) !important;
+  margin: 30px 0 50px;
+  line-height: 180%;
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.darkcyan-text {
+  color: var(--darkcyan);
+}
+
+.verydarkcyan-text {
+  color: var(--verydarkcyan);
+}
+
+.transparent-hover {
+  transition: 0.2s;
+}
+.transparent-hover:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.orange-background {
+  background-color: var(--orange);
+}
+
+.darkcyan-background {
+  background-color: var(--darkcyan);
+}
+
+.verydarkcyan-background {
+  background-color: var(--verydarkcyan);
 }/*# sourceMappingURL=styles.css.map */

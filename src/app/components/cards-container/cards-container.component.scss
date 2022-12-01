@@ -1,8 +1,19 @@
+:host {
+    margin: auto;
+}
+
 #container {
     display: flex;
     margin: auto;
-    width: max-content;
-    align-content: space-between;
+    max-width: max-content;
     border-radius: 8px;
     overflow: hidden;
 }
+
+@media (max-width: 900px) {
+
+    #container {
+      flex-direction: column;
+      margin: 30px;
+    }
+  }
